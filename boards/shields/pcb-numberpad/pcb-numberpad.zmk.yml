@@ -1,6 +1,6 @@
 file_format: "1"
 id: pcb-numberpad
-name: pcb-numberpad
+name: Numbpad
 type: shield
 url: https://github.com/joshsit/zmk-config-pcb-numberpad
 requires: [pro_micro]
