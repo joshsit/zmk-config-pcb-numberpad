@@ -68,8 +68,8 @@
             bindings = <
                 &kp R            &kp B      &kp Y
                 &kp L            &kp A      &kp X
-                &kp DOWN    &kp RIGHT       &none
-                &kp UP      &kp LEFT        &none    
+                &kp UP    &kp RIGHT       &none
+                &kp LEFT      &kp DOWN        &none    
             >;
         };
 
