@@ -66,9 +66,6 @@
         // Layer 2: Gamepad
         game_layer {
             bindings = <
-                &kp LEFT    &kp UP    &none    &kp B            
-                &none    &kp DOWN    &kp RIGHT    &kp A    &kp X     &kp Y
-
                 &kp R            &kp B      &kp Y
                 &kp L            &kp A      &kp X
                 &kp DOWN    &kp RIGHT       &none
