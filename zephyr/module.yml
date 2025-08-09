@@ -1,3 +1,5 @@
+name: zmk-keyboard-<pcb-numberpad>
+
 build:
   settings:
     board_root: .

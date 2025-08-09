@@ -1,0 +1,10 @@
+file_format: "1"
+id: pcb-numberpad
+name: pcb-numberpad
+type: shield
+url: https://github.com/joshsit/zmk-config-pcb-numberpad
+requires: [pro_micro]
+
+features:
+  - keys
+  - studio
