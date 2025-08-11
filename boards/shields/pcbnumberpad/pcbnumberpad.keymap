@@ -10,17 +10,24 @@
     combos {
         compatible = "zmk,combos";
 
-        //middle click mouse button
-        combo_mouseb3 {
+        //middle click mouse button (mouse layer)
+        combo_mouse_mb3 {
             timeout-ms = <30>;
             key-positions = <3 6>;
             bindings = <&mkp MB3>;
         };
 
-        //backspace
-        combo_bkspc {
+        //backspace (mouse layer)
+        combo_mouse_bspc {
             timeout-ms = <30>;
-            key-positions = <1 3>;
+            key-positions = <0 3>;
+            bindings = <&kp BSPC>;
+        };
+
+        //backspace (base layer)
+        combo_base_bspc {
+            timeout-ms = <30>;
+            key-positions = <1 2>;
             bindings = <&kp BSPC>;
         };
         
