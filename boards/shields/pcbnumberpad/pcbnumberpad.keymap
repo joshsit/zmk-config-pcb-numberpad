@@ -9,32 +9,46 @@
 / {
     combos {
         compatible = "zmk,combos";
+
+        //middle click mouse button
+        combo_mouseb3 {
+            timeout-ms = <30>;
+            key-positions = <3 6>;
+            bindings = <&mkp MB3>;
+        };
+
+        //backspace
+        combo_bkspc {
+            timeout-ms = <30>;
+            key-positions = <1 3>;
+            bindings = <&kp BSPC>;
+        };
         
         //toggle layer 0 (return to base layer)
         combo_layer0 {
             timeout-ms = <30>;
-            key-positions = <0 1 2>;  // tap both thumb keys to go to home layer
+            key-positions = <0 1 2>;
             bindings = <&to 0>;
         };
 
         //toggle layer 1 (navigation layer)
         combo_layer1 {
             timeout-ms = <30>;
-            key-positions = <3 4 5>;  // toggle nav layer with top pinky key and outer thumb key
+            key-positions = <3 4 5>;
             bindings = <&to 1>;
         };
 
         //toggle layer 2 (game layer)
         combo_layer2 {
             timeout-ms = <30>;
-            key-positions = <6 7 8>;  // toggle macro layer with top ring key and outer thumb key
+            key-positions = <6 7 8>;
             bindings = <&to 2>;
         };
 
         //toggle layer 3 (bluetooth layer)
         combo_layer3 {
             timeout-ms = <30>;
-            key-positions = <9 10 11>;  // toggle bluetooth layer with lower index key and outer thumb key
+            key-positions = <9 10 11>;
             bindings = <&to 3>;
         };
     };    
