@@ -17,6 +17,13 @@
             bindings = <&mkp MB3>;
         };
 
+        //enter (mouse layer)
+        combo_mouse_enter {
+            timeout-ms = <30>;
+            key-positions = <6 9>;
+            bindings = <&kp ENTER>;
+        };
+        
         //backspace (mouse layer)
         combo_mouse_bspc {
             timeout-ms = <30>;
